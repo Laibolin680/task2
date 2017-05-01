@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	text-align: center;
+}
+input.text{
+	border-radius: 7px;
+	width: 400px;
+	height: 30px;
+	border-width:2px;
+	border-style: solid;
+	border-color:#DBDBDB;
+}
+
+input.submit{
+	width: 60px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:#407BD8;
+	border-width:0px;
+	font-size:15px;
+	color: aliceblue;
+}

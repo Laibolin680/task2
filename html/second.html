@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/second.css">
+<script src="../js/second.js"></script>
+<title>second</title>
+</head>
+
+<body>
+<div>
+  <form name="myform-1">
+		<p>名称&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <input type="text" name="name" class="text" onfocus="getting(this)" onblur="losing(this)" id="change-losing"></p>
+	    <p id="demo"></p>
+	    <p>密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <input type="password" name="code" class="text" onfocus="codegetting(this)" onblur="codemaking(this)" id="change-codemaking"></p>
+	    <p id="codemaking"></p>
+		<p>密码确认
+		<input type="password" name="code-checking" class="text" onfocus="codecheckinggetting(this)" onblur="codechecking(this)" id="change-codechecking"></p>
+		<p id="codechecking"></p>
+		<p>邮箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="email" class="text" onfocus="emailgetting(this)" onblur="emailchecking(this)" id="change-emailchecking"></p>
+		<p id="emailchecking"></p>
+		<p>手机&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="phone" class="text" onfocus="phonegetting(this)" onblur="phonechecking(this)" id="change-phonechecking"></p>
+		<p id="phonechecking"></p>
+		<input type="submit" name="submit" value="提交" class="submit" onClick="handin(this)">
+	</form>
+</div>
+</body>
+</html>
